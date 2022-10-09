@@ -1,0 +1,9 @@
+.header{
+    background-color: orchid;
+    height: 60px;
+    
+}
+.header a {
+    margin-right: 20px;
+    text-decoration: none;
+}

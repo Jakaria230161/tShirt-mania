@@ -1,6 +1,8 @@
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
+import About from './Components/About/About';
+import Grandpa from './Components/Grandpa/Grandpa';
 import Home from './Components/Home/Home';
 import Orders from './Components/Orders/Orders';
 import Main from './layouts/Main';
@@ -20,6 +22,14 @@ function App() {
         {
           path: '/orders',
           element: <Orders></Orders>
+        },
+        {
+          path: '/grandpa',
+          element: <Grandpa></Grandpa>
+        },
+        {
+          path: '/about',
+          element: <About></About>
         }
       ]
     }
